@@ -20,4 +20,4 @@ target_include_directories(${target}
 )
 
 # Link against app library
-target_link_libraries(unittest PUBLIC libskeleton)
+target_link_libraries(unittest PUBLIC lib${PROJECT_NAME})

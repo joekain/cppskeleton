@@ -1,4 +1,4 @@
-set(target libskeleton)
+set(target lib${PROJECT_NAME})
 set(sources
 
 )

@@ -1,4 +1,4 @@
-set(target skeleton)
+set(target ${PROJECT_NAME})
 set(sources
   main.cxx
 )
@@ -12,4 +12,4 @@ add_executable(${target}
 target_compile_features(${target} PRIVATE cxx_std_17)
 
 # Link against app library
-target_link_libraries(${target} PUBLIC libskeleton)
+target_link_libraries(${target} PUBLIC lib${PROJECT_NAME})
