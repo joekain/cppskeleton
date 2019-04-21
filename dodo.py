@@ -7,7 +7,7 @@ from doit.action import CmdAction
 
 DOIT_CONFIG = {'default_tasks': ['build', "unit_test", "clang_tidy"]}
 
-BUILD_DIR="build_"
+BUILD_DIR="build"
 
 def task_cmake():
     """Generate Makefiles using cmake"""
